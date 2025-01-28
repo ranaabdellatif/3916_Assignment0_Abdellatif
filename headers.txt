@@ -1,0 +1,77 @@
+HTTP Headers Descriptions! (Unformatted Text From Console Can Be Found Below!)
+
+Request Headers:
+
+1. User-Agent: `PostmanRuntime/7.43.0`  
+- tells the server the type of client (Postman) making the request.
+
+2. Accept: `*/*`  
+- says the client can accept any type of data in the response.
+
+3. Postman-Token: `b8a70687-08bc-4280-8979-32e0005e2992`  
+- unique ID for the request, used for tracking.
+
+4. Host: `www.googleapis.com`  
+- website being accessed.
+
+5. Accept-Encoding: `gzip, deflate, br`  
+- types of compression the client can handle to make the response smaller.
+
+6. Connection: `keep-alive`  
+- asks the server to keep the connection open for future requests.
+
+Response Headers:
+
+1. Content-Type: `application/json; charset=UTF-8`  
+- tells the client the response data is in JSON format and uses UTF-8 encoding.
+
+2. Vary: `Origin`, `X-Origin`, `Referer`  
+- says the response may change based on where the request comes from.
+
+3. Content-Encoding: `gzip`  
+- shows the response data is compressed to make it smaller.
+
+4. Date: `Mon, 27 Jan 2025 23:40:29 GMT`  
+- date and time when the server sent the response.
+
+5. Server: `ESF`  
+- gives the name of the server software handling the request.
+
+6. X-XSS-Protection**: `0`  
+- tells browsers not to use extra security for preventing script attacks.
+
+7. X-Frame-Options: `SAMEORIGIN`  
+- stops response from being loaded in a frame on a different website.
+
+8. X-Content-Type-Options: `nosniff`  
+- prevents browser from guessing the type of file.
+
+9. Alt-Svc: `h3=":443"; ma=2592000, h3-29=":443"; ma=2592000`  
+- tells client about faster ways to connect.
+
+10. Transfer-Encoding: `chunked`  
+- says the response data is sent in pieces instead of all at once.
+
+
+Request Headers
+User-Agent: PostmanRuntime/7.43.0
+Accept: */*
+Postman-Token: b8a70687-08bc-4280-8979-32e0005e2992
+Host: www.googleapis.com
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+
+Response Headers
+Content-Type: application/json; charset=UTF-8
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+Content-Encoding: gzip
+Date: Mon, 27 Jan 2025 23:40:29 GMT
+Server: ESF
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
+--
